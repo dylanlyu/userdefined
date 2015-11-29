@@ -1,0 +1,11 @@
+<templateSet group="Beego">
+  <template name="types" value="type $TypeName$ struct {&#10;&#9;$END$&#10;}" description="type ... struct {....}" toReformat="true" toShortenFQNames="true">
+    <variable name="TypeName" expression="" defaultValue="TypeName" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+      <option name="GO_FILE" value="true" />
+      <option name="GO_BLOCK" value="true" />
+      <option name="GO_TYPE" value="true" />
+    </context>
+  </template>
+</templateSet>

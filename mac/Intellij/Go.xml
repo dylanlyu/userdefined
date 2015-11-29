@@ -1,0 +1,21 @@
+<templateSet group="Go">
+  <template name="func" value="func $TypeName$($Parameters$) $Return$ {&#10;    $END$&#10;}" description="func TypeName(Parameters)  Return{....}" toReformat="false" toShortenFQNames="true">
+    <variable name="TypeName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Parameters" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Return" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GO" value="true" />
+      <option name="GO_FILE" value="true" />
+      <option name="GO_BLOCK" value="true" />
+      <option name="GO_TYPE" value="true" />
+    </context>
+  </template>
+  <template name="var" value="var (&#10;    $END$&#10;)" description="var (......)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GO" value="true" />
+      <option name="GO_FILE" value="true" />
+      <option name="GO_BLOCK" value="true" />
+      <option name="GO_TYPE" value="true" />
+    </context>
+  </template>
+</templateSet>
