@@ -7,7 +7,6 @@ alias ll='ls -lF'
 alias l='ls -AlF'
 # alias l='ls -CF'
 
-
 #export ANDROID_NDK=$HOME/Library/Android/ndk-r10e
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export GOROOT="/usr/local/opt/go/libexec"
